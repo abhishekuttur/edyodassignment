@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+## Create a Payment Page as per the Provided Design
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Description:**
+Create a webpage using ReactJS components that matches the provided design. The page should include a selection functionality that updates the price and discounted price based on the selected plan.
 
-## Available Scripts
+**Assumption:**
+Due to a lack of clarity regarding the calculation, the following assumptions have been made:
 
-In the project directory, you can run:
+- The Subscription Fee is fixed at Rs 18,500.
+- If the subscription is purchased before March 25th, 2023, a discount of Rs 18,401 is applied.
+- The discount is no longer applicable.
+- For a 12-month plan at Rs 15/month, the total amount to be paid is Rs 18,500 + Rs 179 = Rs 18,679.
+- For a 6-month plan at Rs 25/month, the total amount to be paid is Rs 18,500 + Rs 149 = Rs 18,649.
+- For a 3-month plan at Rs 33/month, the total amount to be paid is Rs 18,500 + Rs 99 = Rs 18,599.
 
-### `npm start`
+If the offer date is on or before March 25th:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- For a 12-month plan at Rs 15/month, the discounted amount to be paid is Rs 18,500 - Rs 18,401 + Rs 179 = Rs 278.
+- For a 6-month plan at Rs 25/month, the discounted amount to be paid is Rs 18,500 - Rs 18,401 + Rs 149 = Rs 248.
+- For a 3-month plan at Rs 33/month, the discounted amount to be paid is Rs 18,500 - Rs 18,401 + Rs 99 = Rs 198.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**Pre-requisites:**
+- Install the required node modules (Command: `npm install`)
+- To run the application, use the following command: `npm start`
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**End:**
+Thank you for considering my implementation for the assigned project. I have created the payment page as per the provided design using ReactJS components. If you have any further questions or need assistance, please feel free to reach out. I look forward to your feedback and the opportunity to enhance your user experience.
