@@ -1,0 +1,311 @@
+.access {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-size: 46px;
+    line-height: 125%;
+  
+    letter-spacing: -0.01em;
+
+    color: #FFFFFF;
+}
+
+.BGcolor {
+    /* background-color: lightskyblue; */
+    background-image: url(./contents/Back\ Ground.png);
+    margin-left: -1rem;
+}
+
+.check{
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    height: 20px;
+    margin-top: -0.02rem;
+}
+.ninenine {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 125%;
+    
+    letter-spacing: -0.01em;
+
+    color: #0096FF;
+}
+
+.oneEight {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 46px;
+    line-height: 125%;
+    letter-spacing: -0.01em;
+
+    color: #FFFFFF;
+}
+.cutLine{
+    color: red;
+    position: absolute;
+    margin-left: -150px;
+    margin-top: -18px;
+}
+
+.minHour{
+    position: absolute;
+    margin-left: -28.9rem;
+    margin-top: 0.9rem;
+}
+
+.live{
+    position: absolute;
+    margin-left: -29rem;
+    margin-top: 1.8rem;
+}
+
+.ads{
+    position: absolute;
+    margin-left: -30.8rem;
+    margin-top: 1.4rem;
+}
+
+.rect{
+    position: absolute;
+    margin-left: -31rem;
+    margin-top: 0.45rem;
+}
+
+.cylinder{
+    position: absolute;
+    margin-left: -30.44rem;
+    margin-top: 1.1rem;
+}
+
+.tie{
+    position: absolute;
+    margin-left: -30.5rem;
+    margin-top: 2rem;
+}
+
+.leftroll{
+    position: absolute;
+    margin-left: -32.83rem;
+    margin-top: 1.8rem;
+}
+
+.rightroll{
+    position: absolute;
+    margin-left: -28.3rem;
+    margin-top: 1.8rem;
+}
+
+.job_rev {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 32px;
+    line-height: 100%;
+
+    align-items: center;
+    letter-spacing: 0.03em;
+
+    color: #FFFFFF
+}
+
+.bluetext {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 100%;
+
+    align-items: center;
+    letter-spacing: 0.03em;
+
+    color: #0096FF
+}
+
+.bluecircle {
+    width: 38px;
+    height: 38px;
+
+    background: #0096FF;
+    border-radius: 1000px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 18px;
+    letter-spacing: -0.015em;
+
+    color: #FFFFFF;
+}
+
+.subplan {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 125.3%;
+
+
+    color: #3C4852;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.border1 {
+    align-items: center;
+    isolation: isolate;
+
+    background: #E7E7E7;
+    border: 2px solid #BEBEBE;
+    border-radius: 4px;
+}
+
+.sub {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+
+    color: #BEBEBE;
+}
+
+.total {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    color: #3C4852;
+}
+
+.num {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 120%;
+    color: #3C4852;
+}
+
+.beloTotal {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 120%;
+    color: #3C4852;
+}
+
+.mo {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 120%;
+    color: #3C4852;
+}
+
+.line {
+    margin-left: 7.2rem;
+    width: 28rem;
+    height: 1px;
+    background-color: black;
+}
+
+.offer {
+    background: linear-gradient(135deg, rgba(222, 67, 19, 0.2) 0%, rgba(222, 67, 19, 0.2) 0.75%, rgba(222, 67, 19, 0.2) 2.92%, rgba(222, 68, 20, 0.2) 6.37%, rgba(223, 69, 21, 0.2) 10.97%, rgba(223, 72, 22, 0.2) 16.59%, rgba(224, 75, 24, 0.2) 23.1%, rgba(225, 80, 27, 0.2) 30.37%, rgba(227, 86, 31, 0.2) 38.27%, rgba(229, 94, 36, 0.2) 46.66%, rgba(231, 104, 43, 0.2) 55.41%, rgba(235, 117, 51, 0.2) 64.39%, rgba(238, 132, 60, 0.2) 73.47%, rgba(243, 149, 71, 0.2) 82.52%, rgba(248, 169, 84, 0.2) 91.41%, rgba(254, 193, 99, 0.2) 100%);
+    border-radius: 8px;
+    border-radius: 4px;
+    margin-left: 7.2em;
+    padding: 10px;
+}
+
+.cancle {
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 212.5px;
+    height: 46px;
+
+    background: #FFFFFF;
+    color: #F77171;
+    border-radius: 4px;
+    border-color: #F77171;
+}
+
+.proceed {
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    width: 212.5px;
+    height: 46px;
+    border: none;
+    background: #47BA68;
+    color: #FFFFFF;
+    border-radius: 4px;
+}
+
+.sub2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    align-items: center;
+    text-align: center;
+    color: #3C4852;
+}
+.sub2:hover{
+    cursor: pointer;
+}
+
+.onefournine {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    /* identical to box height, or 24px */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #3C4852;
+}
+
+.Limited {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    /* or 19px */
+
+    align-items: center;
+    text-align: center;
+
+    color: #DE4313;
+}
+
+.valid {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    /* identical to box height, or 17px */
+
+    align-items: center;
+    text-align: center;
+
+    color: #DE4313;
+}

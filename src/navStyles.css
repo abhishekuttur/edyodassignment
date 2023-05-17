@@ -1,0 +1,85 @@
+.edyoda {
+    /* position: absolute; */
+    /* width: 158px; */
+    /* height: 45px;
+    left: 0.5px;
+    top: 0.5px; */
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 38px;
+    /* line-height: 45px; */
+    /* identical to box height */
+
+    /* display: flex; */
+    /* align-items: center; */
+    /* text-align: center; */
+    letter-spacing: 0.03em;
+
+    background: linear-gradient(90.72deg, #0096FF 42.18%, #0048FF 93.77%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.login {
+    /* Text */
+
+
+    width: 46px;
+    height: 19px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.joinbtn {
+    /* Auto layout */
+
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: center; */
+    align-items: center;
+    /* padding: 10px 42px; */
+    /* gap: 10px; */
+
+    width: 166px;
+    height: 40px;
+
+    background: linear-gradient(266.79deg, #0048FF 4.63%, #0096FF 100%);
+    border-radius: 52px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+
+.navbar {
+    background: #FFFFFF;
+}
+
+.dropdown {
+    margin-right: 40px;
+    height: 10px;
+    width: 12px;
+    margin-left: 10px;
+}
